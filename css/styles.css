@@ -1,0 +1,133 @@
+/**************************************TAG SELECTORS****************************************/
+body{
+    margin:0;
+    text-align: center;
+    font-family:'Merriweather',serif;
+}
+h1{
+    margin-top:0;
+    font-family:'Sacramento',sans-serif;
+    font-size:5.625rem;
+    margin:50px auto 0 auto;
+    color: #66BFBF;
+}
+h2{
+    font-family:'Ubuntu',sans-serif;
+    font-size:2.5rem;
+    color:#66BFBF;
+    font-weight:normal;
+}
+h3{
+    font-family: sans-serif;
+    color:#11999E;
+}
+p{
+   font-family:'Roboto',sans-serif;
+}
+hr{
+   border-top-style:dotted;
+   border-width:5px 0px 0px 0px;
+   width:5%;
+   border-color:#EAF6F6;
+}
+a{
+    color:#11999E;
+    font-family:'Merriweather',sans-serif;
+    margin:10px 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:#EAE6E6;
+}
+/*******************************************CLASS SELECTORS***************************************************/
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+}
+.codeimg{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
+.clapimg{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+.top-container{
+    background-color:#E4F9F5;
+    position:relative;
+    padding-top:100px;
+}
+.middle-container{
+    padding:100px 0px 0px 0px;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    margin-top:80px;
+    padding:40px 0px 20px;
+}
+.pro{
+    text-decoration:underline;
+}
+.movies{
+    width:30%;
+    margin:auto;
+}
+.copyright{
+    color:#EAF6F6;
+    font-size:0.75rem;
+    padding:20px;
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+.profile{
+    margin-bottom:80px;
+}
+.skills{
+    margin:80px 0px 80px 0px;
+}
+.contact-me{
+    margin-top:80px;
+}
+.contact{
+    margin:40px 0px 40px 0px;
+}
+.top-cloud{
+      position:absolute;
+      right:300px;
+      top:50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.btn{
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   color: #FFFFFF;
+   font-family: Times New Roman;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 13px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+@media (max-width: 1028px){
+  h2{
+    fon-size:4rem;
+  }
+  .skill-row{
+    width: 80%;
+  }
+}
